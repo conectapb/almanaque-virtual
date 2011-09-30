@@ -1,0 +1,179 @@
+/*
+	Autor: Willian Sant'Anna
+	Data: 30/09/2011
+*/
+
+* { margin: 0; }
+
+h1, h2, h3, h4, h5, h6 
+{  
+	margin: 0 0 20px 0; 
+	font: Arial, Helvetica, sans-serif #000;
+} 
+
+
+#geral 
+{ 
+	margin: 0px auto  0px  auto; 
+	width: 960px; 
+}
+
+#topo 
+{ 
+	margin: auto; 
+	width: 940px; 
+	height: 200px; 
+}
+
+#busca 
+{
+	width: 430px;
+	height: 40px;
+	position:absolute;
+	right: 180px;
+	bottom: 60px;
+} .busca { 
+			width: 430px; 
+			height: 30px; 
+			font: Arial, Helvetica, sans-serif 1.8em #E2E2E2; 
+			border: none; 
+	} 
+	
+#menu 
+{ 
+	width: 430px; 
+	height: 35px; 
+	position:absolute; 
+	right: 180px; 
+	bottom: 20px; 
+} .menu {
+		padding: 0;
+		margin: 0;
+		
+	} .menu li {
+			list-style : none;
+			margin: 0;
+			display: inline;
+			font: .8em Arial, Helvetica, sans-serif;
+		} .menu li a {
+				height: 1px; /*IE5 BUG*/
+				padding: 3px 5px;
+				margin: 0;
+				text-decoration: none;				
+				color:#000;
+			}
+
+#conteudo 
+{ 
+	margin: auto 10px auto 10px; 
+	float: left; 
+	width: 620px; 
+	height:!important; 
+	height: 700px; 
+	min-height: 700px; 
+}
+
+#destaque, #ultimas
+{
+	margin: 0 10px 10px 10px;
+	float: left; 
+	height:!important; 
+	width: 290px;
+	height: 500px; 
+	min-height: 500px; 
+}
+
+#promocoes
+{
+	clear: both;
+	margin: 10px auto 10px auto;
+	width:600px;
+	height: 190px;
+}
+
+#banner-principal 
+{ 
+	margin: 0 0 20px 0; 
+	width: 960px; 
+	height: 475px; 
+	background:url(images/bg-banner.jpg); 
+} 
+
+#banner
+{
+	margin: 10px auto 10px auto;
+	width: 940px;
+	height: 320px; 
+}
+
+#coluna-widget 
+{ 
+	margin: auto 10px auto 10px; 
+	float: left; 
+	width: 300px; 
+	height:!important; 
+	height: 600px; 
+	min-height: 700px; 
+}
+
+#container-rodape 
+{ 
+	margin: 0; 
+	clear: both; 
+	height: 320px; 
+	background:#6585c2
+}
+
+#rodape 
+{
+	margin: auto; 
+	width: 940px; 
+	height: 320px; 
+}
+
+#geral, #topo 
+{ 
+	position: relative; 
+}
+
+#logo 
+{ 
+	width: 200px; 
+	height: 160px; 
+	position: absolute; 
+	bottom: 20px; 
+}
+
+.banner-publicidade 
+{ 
+	height : 300px; 
+	margin: 0 0 20px 0; 
+}
+
+.facebook 
+{ 
+	height: !important; 
+	height: 300px; 
+	min-height:300px; 
+}
+
+/**/
+.slider {position:relative;z-index:1;width:100%;height:465px;overflow:hidden;margin-bottom:10px}
+.slider .items {display:none}
+.pic {float:right;position:relative}
+.mask {left:auto !important;right:0;width:720px !important}
+.pagination {position:absolute;left:0;top:0;z-index:3}
+.pagination li {width:250px;height:155px}
+.pagination a {display:block;position:relative;cursor:pointer;padding:29px 0 0 33px;font-size:50px;line-height:1.2em;font-weight:400;color:#fff;text-decoration:none;text-transform:uppercase;letter-spacing:-1px;height:126px}
+.pagination a span {display:block;font-weight:300;font-size:30px;line-height:1.2em;margin-top:-10px;letter-spacing:0}
+#banner1 {background:url(../images/banner1.png) 0 0 no-repeat}
+#banner1 a {background:url(../images/banner1_active.png) -250px 0 no-repeat}
+#banner2 {background:url(../images/banner2.png) 0 0 no-repeat}
+#banner2 a {background:url(../images/banner2_active.png) -250px 0 no-repeat}
+#banner3 {background:url(../images/banner3.png) 0 0 no-repeat}
+#banner3 a {background:url(../images/banner3_active.png) -250px 0 no-repeat}
+.pagination #banner1:hover, .pagination #banner1.current, .pagination #banner2:hover, .pagination #banner2.current, .pagination #banner3:hover, .pagination #banner3.current {}
+.banner {position:absolute;z-index:2;right:0;bottom:0;margin:0 10px 10px 0}
+.banner span {float:right;padding:0 32px;margin-bottom:5px;background:#000;font-size:40px;line-height:56px;height:56px;font-weight:400;color:#dad6cc;line-height:1.2em}
+.banner em {font-style:normal;text-transform:uppercase}
+.banner strong {float:right;padding:0 32px;background:#000;font-size:40px;line-height:56px;font-weight:300;color:#dad6cc}
