@@ -95,16 +95,16 @@ h1, h2, h3, h4, h5, h6
 { 
 	margin: 0 0 20px 0; 
 	width: 960px; 
-	height: 380px; 
+	height: auto; 
 	background:url(images/bg-banner.jpg); 
 } 
 
-#banner
+/*#banner
 {
 	margin: 10px auto 10px auto;
 	width: 940px;
-	height: 370px; 
-}
+	height: auto; 
+}*/
 
 #coluna-widget 
 { 
@@ -146,8 +146,9 @@ h1, h2, h3, h4, h5, h6
 
 .banner-publicidade 
 { 
-	height : 300px; 
-	margin: 0 0 20px 0; 
+	width: 940px;
+	height : auto; 
+	margin: 0 auto 0 auto; 
 }
 
 .facebook 
@@ -163,24 +164,53 @@ h1, h2, h3, h4, h5, h6
 	position:relative;
 	z-index:1;
 	width:100%;
+	width: 940px;
+	margin: 0 0 0 0;
 	height:370px;
 	overflow:hidden;
-	margin-bottom:10px
+	/*margin-bottom:10px*/
 }
 
-.slider .items {display:none}
-.pic {float:right;position:relative}
-.mask {left:auto !important;right:0;width:720px !important}
-.pagination {position:absolute;left:0;top:0;z-index:3}
-.pagination li {width:250px;height:120px}
+.slider .items 
+{
+	display:none
+}
+
+.pic 
+{
+	float:right;
+	position:relative
+}
+
+.mask 
+{
+	left:auto !important;
+	right:0;
+	width:720px !important
+}
+
+.pagination 
+{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:3
+}
+
+.pagination li 
+{
+	width:280px;
+	height:120px;
+	list-style:none;
+}
 
 .pagination a 
 {
 	display:block;
 	position:relative;
 	cursor:pointer;
-	padding:0 0 0 20px;
-	font-size:1.6em;
+	padding:0 0 0 0;
+	font-size:1.2em;
 	line-height:1.2em;
 	/*	font-weight:400;*/
 	color:#fff;
@@ -195,7 +225,7 @@ h1, h2, h3, h4, h5, h6
 {
 	display:block;
 	/*font-weight:300;*/
-	font-size:.6em;
+	font-size:.8em;
 	line-height:1.2em;
 /*	margin-top:10px;*/
 	letter-spacing:0
@@ -214,10 +244,38 @@ h1, h2, h3, h4, h5, h6
 
 .pagination #banner1:hover, .pagination #banner1.current, .pagination #banner2:hover, .pagination #banner2.current, .pagination #banner3:hover, .pagination #banner3.current {}
 
-.banner {position:absolute;z-index:2;right:0;bottom:0;margin:0 10px 10px 0}
+.banner 
+{
+	position:absolute;
+	z-index:2;
+	right:0;
+	bottom:0;
+	margin:0 0 0 0;
+}
 
-.banner span {float:right;padding:0 32px;margin-bottom:5px;background:#000;font-size:40px;line-height:56px;height:56px;font-weight:400;color:#dad6cc;line-height:1.2em}
+.banner span 
+{
+	float:right;
+
+	margin-bottom:5px;
+	background:#000;
+	font-size:40px;
+	line-height:56px;
+	height:56px;
+	font-weight:400;
+	color:#dad6cc;
+	line-height:1.2em
+}
 
 .banner em {font-style:normal;/*text-transform:uppercase*/}
 
-.banner strong {float:right;padding:0 32px;background:#000;font-size:40px;line-height:56px;font-weight:300;color:#dad6cc}
+.banner strong 
+{
+	float:right;
+	padding:0 32px;
+	background:#000;
+	font-size:40px;
+	line-height:56px;
+	font-weight:300;
+	color:#dad6cc
+}
