@@ -163,9 +163,8 @@ h1, h2, h3, h4, h5, h6
 {
 	position:relative;
 	z-index:1;
-	width:100%;
 	width: 940px;
-	margin: 0 0 0 0;
+	margin: 0 auto 0 auto;
 	height:370px;
 	overflow:hidden;
 	/*margin-bottom:10px*/
@@ -186,7 +185,7 @@ h1, h2, h3, h4, h5, h6
 {
 	left:auto !important;
 	right:0;
-	width:720px !important
+	width:550px !important; /*M*/
 }
 
 .pagination 
@@ -236,11 +235,30 @@ h1, h2, h3, h4, h5, h6
 	background:url(../images/banner1.png) 0 0 no-repeat
 }
 
-#banner1 a {background:url(../images/banner1_active.png) -250px 0 no-repeat}
-#banner2 {background:url(../images/banner2.png) 0 0 no-repeat}
-#banner2 a {background:url(../images/banner2_active.png) -250px 0 no-repeat}
-#banner3 {background:url(../images/banner3.png) 0 0 no-repeat}
-#banner3 a {background:url(../images/banner3_active.png) -250px 0 no-repeat}
+#banner1 a 
+{
+	background:url(../images/banner1_active.png) -250px 0 no-repeat
+}
+
+#banner2 
+{
+	background:url(../images/banner2.png) 0 0 no-repeat
+}
+
+#banner2 a 
+{
+	background:url(../images/banner2_active.png) -250px 0 no-repeat
+}
+
+#banner3 
+{
+	background:url(../images/banner3.png) 0 0 no-repeat
+}
+
+#banner3 a 
+{
+	background:url(../images/banner3_active.png) -250px 0 no-repeat
+}
 
 .pagination #banner1:hover, .pagination #banner1.current, .pagination #banner2:hover, .pagination #banner2.current, .pagination #banner3:hover, .pagination #banner3.current {}
 
