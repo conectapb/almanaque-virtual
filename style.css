@@ -4,6 +4,7 @@
 */
 
 * { margin: 0; }
+body { background:url(images/bg.gif); } 
 
 h1, h2, h3, h4, h5, h6 
 {  
@@ -15,37 +16,43 @@ h1, h2, h3, h4, h5, h6
 #geral 
 { 
 	margin: 0px auto  0px  auto; 
-	width: 960px; 
+	position: relative;
+	width: 960px;
+	background:#FFF; 
+	height: !important; 
+	height: 1350px;
+	min-height: 700px; 
 }
 
 #topo 
-{ 
-	margin: auto; 
-	width: 940px; 
-	height: 200px; 
+{
+	margin: auto;
+	width: 960px;
+	height: 250px;
+	background:url(images/bg-topo.gif);
 }
 
 #busca 
 {
-	width: 430px;
+	width: 360px;
 	height: 40px;
 	position:absolute;
-	right: 180px;
-	bottom: 60px;
+	right: 256px;
+	bottom: 70px;
 } .busca { 
-			width: 430px; 
-			height: 30px; 
+			width: 360px; 
+			height: 25px; 
 			font: Arial, Helvetica, sans-serif 1.8em #E2E2E2; 
 			border: none; 
 	} 
 	
 #menu 
-{ 
-	width: 430px; 
-	height: 35px; 
-	position:absolute; 
-	right: 180px; 
-	bottom: 20px; 
+{
+	width: 430px;
+	height: 35px;
+	position:absolute;
+	right: 227px;
+	bottom: 20px;
 } .menu {
 		padding: 0;
 		margin: 0;
@@ -137,18 +144,19 @@ h1, h2, h3, h4, h5, h6
 }
 
 #logo 
-{ 
-	width: 200px; 
-	height: 160px; 
-	position: absolute; 
-	bottom: 20px; 
+{
+	width: 153px;
+	height: 160px;
+	position: absolute;
+	left: 10px;
+	top: 45px;
 }
 
 .banner-publicidade 
 { 
-	width: 940px;
-	height : auto; 
-	margin: 0 auto 0 auto; 
+	width: 300px;
+	height : 300px; 
+	margin: 0 auto 10px auto; 
 }
 
 .facebook 
@@ -193,13 +201,16 @@ h1, h2, h3, h4, h5, h6
 	position:absolute;
 	left:0;
 	top:0;
-	z-index:3
+	z-index:3;
+	margin: 0px;
+	padding: 0px;
+	height: 373px;
 }
 
 .pagination li 
 {
-	width:280px;
-	height:120px;
+	width:400px;
+	height:127px;
 	list-style:none;
 }
 
@@ -226,39 +237,40 @@ h1, h2, h3, h4, h5, h6
 	/*font-weight:300;*/
 	font-size:.8em;
 	line-height:1.2em;
+	margin: 10px 10px 10px 10px;
 /*	margin-top:10px;*/
 	letter-spacing:0
 }
 
-#banner1 
+/*#banner1 
 {
-	background:url(../images/banner1.png) 0 0 no-repeat
+	background:url(images/banner1.png) 0 0 no-repeat
 }
 
 #banner1 a 
 {
-	background:url(../images/banner1_active.png) -250px 0 no-repeat
+	background:url(images/banner1_active.png) -400px 0 no-repeat
 }
 
 #banner2 
 {
-	background:url(../images/banner2.png) 0 0 no-repeat
+	background:url(images/banner2.png) 0 0 no-repeat
 }
 
 #banner2 a 
 {
-	background:url(../images/banner2_active.png) -250px 0 no-repeat
+	background:url(images/banner2_active.png) -400px 0 no-repeat
 }
 
 #banner3 
 {
-	background:url(../images/banner3.png) 0 0 no-repeat
+	background:url(images/banner3.png) 0 0 no-repeat
 }
 
 #banner3 a 
 {
-	background:url(../images/banner3_active.png) -250px 0 no-repeat
-}
+	background:url(images/banner3_active.png) -400px 0 no-repeat
+}*/
 
 .pagination #banner1:hover, .pagination #banner1.current, .pagination #banner2:hover, .pagination #banner2.current, .pagination #banner3:hover, .pagination #banner3.current {}
 
