@@ -209,8 +209,8 @@ h1, h2, h3, h4, h5, h6
 
 .pagination li 
 {
-	width:400px;
-	height:127px;
+	width:435px;
+	height:126px;
 	list-style:none;
 }
 
@@ -237,19 +237,19 @@ h1, h2, h3, h4, h5, h6
 	/*font-weight:300;*/
 	font-size:.8em;
 	line-height:1.2em;
-	margin: 10px 10px 10px 10px;
+	margin: 0 10px 10px 10px;
 /*	margin-top:10px;*/
 	letter-spacing:0
 }
 
-/*#banner1 
+#banner1 
 {
-	background:url(images/banner1.png) 0 0 no-repeat
+	background:url(images/banner1.png) 0 0 no-repeat;
 }
 
 #banner1 a 
 {
-	background:url(images/banner1_active.png) -400px 0 no-repeat
+	background:url(images/banner1_active.png) -300px 0 no-repeat
 }
 
 #banner2 
@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6
 #banner3 a 
 {
 	background:url(images/banner3_active.png) -400px 0 no-repeat
-}*/
+}
 
 .pagination #banner1:hover, .pagination #banner1.current, .pagination #banner2:hover, .pagination #banner2.current, .pagination #banner3:hover, .pagination #banner3.current {}
 
