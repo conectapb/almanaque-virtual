@@ -3,14 +3,15 @@
 	Data: 30/09/2011
 */
 
-* { margin: 0; }
-body { background:url(images/bg.gif); } 
+* { margin: 0; font-family:Arial, Helvetica, sans-serif; }
+body { background:url(images/bg.gif);  } 
 
 h1, h2, h3, h4, h5, h6 
 {  
 	margin: 0 0 20px 0; 
-	font: Arial, Helvetica, sans-serif #000;
-} 
+	font: Arial, Helvetica, sans-serif;
+	color:#000;
+}
 
 
 #geral 
@@ -88,7 +89,13 @@ h1, h2, h3, h4, h5, h6
 	width: 290px;
 	height: 500px; 
 	min-height: 500px; 
-}
+} .box 
+	{
+		width: auto;
+		height:auto;
+		padding: 10px;
+		margin: 10px auto 10px auto;
+	}
 
 #promocoes
 {
@@ -136,6 +143,7 @@ h1, h2, h3, h4, h5, h6
 	margin: auto; 
 	width: 940px; 
 	height: 320px; 
+	position: relative;
 }
 
 #geral, #topo 
@@ -239,6 +247,7 @@ h1, h2, h3, h4, h5, h6
 	line-height:1.2em;
 	margin: 0 10px 10px 10px;
 /*	margin-top:10px;*/
+	padding: 20px;
 	letter-spacing:0
 }
 
@@ -249,7 +258,7 @@ h1, h2, h3, h4, h5, h6
 
 #banner1 a 
 {
-	background:url(images/banner1_active.png) -300px 0 no-repeat
+	background:url(images/banner1_active.png) -430px 0 no-repeat
 }
 
 #banner2 
@@ -259,7 +268,7 @@ h1, h2, h3, h4, h5, h6
 
 #banner2 a 
 {
-	background:url(images/banner2_active.png) -400px 0 no-repeat
+	background:url(images/banner2_active.png) -430px 0 no-repeat
 }
 
 #banner3 
@@ -269,7 +278,7 @@ h1, h2, h3, h4, h5, h6
 
 #banner3 a 
 {
-	background:url(images/banner3_active.png) -400px 0 no-repeat
+	background:url(images/banner3_active.png) -430px 0 no-repeat
 }
 
 .pagination #banner1:hover, .pagination #banner1.current, .pagination #banner2:hover, .pagination #banner2.current, .pagination #banner3:hover, .pagination #banner3.current {}
